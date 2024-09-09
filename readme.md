@@ -1,11 +1,12 @@
-This repo is work in progress and contains the answers to the homework for the [Data Engineering Zoomcamp ](https://github.com/DataTalksClub/data-engineering-zoomcamp)
+This repo is work in progress and contains the answers to the homework of the [Data Engineering Zoomcamp ](https://github.com/DataTalksClub/data-engineering-zoomcamp)
 offered by 
 [Data Talks Club](https://datatalks.club/)
-.
+. In the "Homework" directory, for each Module the homework and corresponding answers will be displayed. 
+
 
 After completing all modules, this repo will also contain a final project, showcasing the learnings.
 
-Course syllabus:
+# Course syllabus:
 
 ### Module 1: Containerization and Infrastructure as Code
 * Tools: Docker, Terraform, GCP (to host a VM), Postgres
