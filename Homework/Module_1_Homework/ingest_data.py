@@ -19,7 +19,6 @@ def main(params):
     table_name = params.table_name
     url = params.url
     
-    
     # The data will be read from the directory. According to best practice, this file is not pushed to the git repo
     # To reproduce this script, one would therefore have to donwload the file using the link below, then unzip it and
     # store the file in the same directory as this script. 
@@ -35,8 +34,8 @@ def main(params):
     df = next(df_iter)
 
     # Applying some prepprocessing
-    df.tpep_pickup_datetime = pd.to_datetime(df.tpep_pickup_datetime)
-    df.tpep_dropoff_datetime = pd.to_datetime(df.tpep_dropoff_datetime)
+    df.lpep_pickup_datetime = pd.to_datetime(df.lpep_pickup_datetime)
+    df.lpep_dropoff_datetime = pd.to_datetime(df.lpep_dropoff_datetime)
 
     # Ingesting the data into postgres 
     df.head(n=0).to_sql(name=table_name, con=engine, if_exists='replace')
@@ -51,8 +50,8 @@ def main(params):
             
             df = next(df_iter)
 
-            df.tpep_pickup_datetime = pd.to_datetime(df.tpep_pickup_datetime)
-            df.tpep_dropoff_datetime = pd.to_datetime(df.tpep_dropoff_datetime)
+            df.lpep_pickup_datetime = pd.to_datetime(df.lpep_pickup_datetime)
+            df.lpep_dropoff_datetime = pd.to_datetime(df.lpep_dropoff_datetime)
 
             df.to_sql(name=table_name, con=engine, if_exists='append')
 
