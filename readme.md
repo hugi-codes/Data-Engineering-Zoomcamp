@@ -1,7 +1,7 @@
 This repo is work in progress and contains the answers to the homework of the [Data Engineering Zoomcamp ](https://github.com/DataTalksClub/data-engineering-zoomcamp)
 offered by 
 [Data Talks Club](https://datatalks.club/)
-. In the "Homework" directory, for each Module the homework and corresponding answers will be displayed. 
+. The "Homework" directory will contain the homework for each Module and the corresponding answers. 
 
 
 After completing all modules, this repo will also contain a final project, showcasing the learnings.
