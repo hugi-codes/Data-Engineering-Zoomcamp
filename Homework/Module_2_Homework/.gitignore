@@ -1,1 +1,5 @@
 .env
+
+# data files
+mage_data/
+magic-zoomcamp-homework/
