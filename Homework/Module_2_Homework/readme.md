@@ -10,8 +10,3 @@ I am running Mage on a VM that is hosted on GCP, so I had to forward the port co
 * **load_green_taxi_data_api.py**: contains the code of the Data loader block in the Mage pipeline
 * **transform_green_taxi_data.py**: contains the code of the Transformer block in the Mage pipeline
 * **export_to_gcs.py**: contains the code of the Data Exporter block in the Mage pipeline
-
-
-
-Visual overview of the pipeline:
-![Screenshot](C:\\Users\\timhu\\Documents\\Data_Engineering\\mage_pipeline.png)
